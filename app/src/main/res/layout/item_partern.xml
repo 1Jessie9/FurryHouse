@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageCard"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_image"/>
+
+        <!--Nombre-->
+        <TextView
+            android:id="@+id/tv_names"
+            android:text="@string/tv_names"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:layout_toEndOf="@id/imageCard"
+            android:textStyle="bold"/>
+
+        <!--Ubicación-->
+        <TextView
+            android:id="@+id/tv_location"
+            android:text="@string/tv_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:layout_below="@id/tv_names"
+            android:layout_toEndOf="@id/imageCard"/>
+
+        <!--Experiencia-->
+        <TextView
+            android:id="@+id/tv_experience"
+            android:text="@string/tv_experience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:layout_below="@id/tv_location"
+            android:layout_toEndOf="@id/imageCard"/>
+
+        <!--Simbolo-->
+        <TextView
+            android:id="@+id/tv_symbol"
+            android:text="@string/tv_symbol"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="2dp"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_below="@id/tv_experience"
+            android:layout_toEndOf="@id/imageCard"
+            android:textStyle="bold"/>
+
+
+        <!--Precio-->
+        <TextView
+            android:id="@+id/tv_price"
+            android:text="@string/tv_price"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/tv_experience"
+            android:layout_toEndOf="@id/tv_symbol"
+            android:textStyle="bold"/>
+
+        <!--xVisita-->
+        <TextView
+            android:id="@+id/tv_visit"
+            android:text="@string/tv_visit"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="2dp"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_below="@id/tv_experience"
+            android:layout_toEndOf="@id/tv_price"
+            android:textStyle="bold"/>
+
+        <!--message-->
+        <ImageButton
+            android:id="@+id/btn_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/message"
+            />
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

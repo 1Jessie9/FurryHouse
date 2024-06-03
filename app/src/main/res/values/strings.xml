@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Furry house</string>
+    <string name="default_web_client_id">167438386686-5a0hf919jpoq8atfkaeegmmkp22b13de.apps.googleusercontent.com</string>
+
+    <string name="tab_home">Home</string>
+    <string name="tab_patners">Padrinos</string>
+    <string name="tab_account">Cuenta</string>
+
+    <string name="TituloRL">Titulo</string>
+
+    <string name="login_email">Ingresar con email</string>
+    <string name="login_google">Ingresar con google</string>
+
+    <string name="text_login">¡Ingresar ahora!</string>
+    <string name="text_email">Correo eléctronico</string>
+    <string name="text_password">Contraseña</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="text_no_account">¿No tienes una cuenta?</string>
+    <string name="text_sign_in">Registrarme</string>
+
+    <string name="text_title_sign_in">¡Registrarme ahora!</string>
+    <string name="text_password_confirm">Repetir contraseña</string>
+    <string name="btn_sign_in">Registrar</string>
+
+    <string name="btn_log_out">Cerrar sesión</string>
+
+    <string name="tv_names">Nombre padrino</string>
+    <string name="tv_location">Ubicación / Ubicación</string>
+    <string name="tv_experience">Experiencia</string>
+    <string name="tv_symbol">$</string>
+    <string name="tv_price">00000</string>
+    <string name="tv_visit">/visita</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

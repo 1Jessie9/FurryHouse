@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.FragmentPartners"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:drawableStart="@drawable/search"
+            android:maxHeight="120dp"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Lista de tarjetas -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageCard1"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginEnd="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_image"/>
+
+            <TextView
+                android:id="@+id/tv_names1"
+                android:text="@string/tv_names"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:layout_toEndOf="@id/imageCard1"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_location1"
+                android:text="@string/tv_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_names1"
+                android:layout_toEndOf="@id/imageCard1"/>
+
+            <TextView
+                android:id="@+id/tv_experience1"
+                android:text="@string/tv_experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_location1"
+                android:layout_toEndOf="@id/imageCard1"/>
+
+            <TextView
+                android:id="@+id/tv_symbol1"
+                android:text="@string/tv_symbol"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="2dp"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_experience1"
+                android:layout_toEndOf="@id/imageCard1"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_price1"
+                android:text="@string/tv_price"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/tv_experience1"
+                android:layout_toEndOf="@id/tv_symbol1"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_visit1"
+                android:text="@string/tv_visit"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="2dp"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_experience1"
+                android:layout_toEndOf="@id/tv_price1"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/btn_message1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="10dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/message"/>
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Segunda tarjeta -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageCard2"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginEnd="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_image"/>
+
+            <TextView
+                android:id="@+id/tv_names2"
+                android:text="@string/tv_names"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:layout_toEndOf="@id/imageCard2"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_location2"
+                android:text="@string/tv_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_names2"
+                android:layout_toEndOf="@id/imageCard2"/>
+
+            <TextView
+                android:id="@+id/tv_experience2"
+                android:text="@string/tv_experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_location2"
+                android:layout_toEndOf="@id/imageCard2"/>
+
+            <TextView
+                android:id="@+id/tv_symbol2"
+                android:text="@string/tv_symbol"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="2dp"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_experience2"
+                android:layout_toEndOf="@id/imageCard2"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_price2"
+                android:text="@string/tv_price"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/tv_experience2"
+                android:layout_toEndOf="@id/tv_symbol2"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_visit2"
+                android:text="@string/tv_visit"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="2dp"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_experience2"
+                android:layout_toEndOf="@id/tv_price2"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/btn_message2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="10dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/message"/>
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Tercera tarjeta -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageCard3"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginEnd="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_image"/>
+
+            <TextView
+                android:id="@+id/tv_names3"
+                android:text="@string/tv_names"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:layout_toEndOf="@id/imageCard3"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_location3"
+                android:text="@string/tv_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_names3"
+                android:layout_toEndOf="@id/imageCard3"/>
+
+            <TextView
+                android:id="@+id/tv_experience3"
+                android:text="@string/tv_experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_location3"
+                android:layout_toEndOf="@id/imageCard3"/>
+
+            <TextView
+                android:id="@+id/tv_symbol3"
+                android:text="@string/tv_symbol"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="2dp"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_experience3"
+                android:layout_toEndOf="@id/imageCard3"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_price3"
+                android:text="@string/tv_price"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/tv_experience3"
+                android:layout_toEndOf="@id/tv_symbol3"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_visit3"
+                android:text="@string/tv_visit"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="2dp"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_experience3"
+                android:layout_toEndOf="@id/tv_price3"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/btn_message3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="10dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/message"/>
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Cuarta tarjeta -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageCard4"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginEnd="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_image"/>
+
+            <TextView
+                android:id="@+id/tv_names4"
+                android:text="@string/tv_names"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:layout_toEndOf="@id/imageCard4"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_location4"
+                android:text="@string/tv_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_names4"
+                android:layout_toEndOf="@id/imageCard4"/>
+
+            <TextView
+                android:id="@+id/tv_experience4"
+                android:text="@string/tv_experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_location4"
+                android:layout_toEndOf="@id/imageCard4"/>
+
+            <TextView
+                android:id="@+id/tv_symbol4"
+                android:text="@string/tv_symbol"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="2dp"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_experience4"
+                android:layout_toEndOf="@id/imageCard4"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_price4"
+                android:text="@string/tv_price"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/tv_experience4"
+                android:layout_toEndOf="@id/tv_symbol4"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_visit4"
+                android:text="@string/tv_visit"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="2dp"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_below="@id/tv_experience4"
+                android:layout_toEndOf="@id/tv_price4"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/btn_message4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="10dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/message"/>
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "167438386686",
+    "firebase_url": "https://furry-house-default-rtdb.firebaseio.com",
+    "project_id": "furry-house",
+    "storage_bucket": "furry-house.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167438386686:android:f19d5046ab8db854adacaf",
+        "android_client_info": {
+          "package_name": "com.furryhouse.furryhouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167438386686-dsumklpfvmg152g72r4f5s52fbotg71f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.furryhouse.furryhouse",
+            "certificate_hash": "ef102137b976b7bd04dca290e987bf27a771de96"
+          }
+        },
+        {
+          "client_id": "167438386686-5a0hf919jpoq8atfkaeegmmkp22b13de.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ-ukPz4QggKxNAimyT51IkjfNrww81tg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167438386686-5a0hf919jpoq8atfkaeegmmkp22b13de.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
